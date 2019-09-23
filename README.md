@@ -8,8 +8,9 @@ https://www.cygwin.com/setup-x86_64.exe
 
 *UsbloaderGX (para cargar el juegoy usar cheats ocarina)
 https://sourceforge.net/projects/usbloadergx/
-  o Dolphin
-  https://es.dolphin-emu.org/download/
+
+o Dolphin
+https://es.dolphin-emu.org/download/
 
 *Mod de el juego
 http://neomariogalaxy.bplaced.net
@@ -37,8 +38,12 @@ usando la version ntsc o japonesa y tienes algun problema contactame
 Se puede portar para otros juegos pero debes migrar el archivo xml de riivolution a uno basado en ocarina (cheats de wii) si quieres saber como hacerlo contactame
 
 Agradecimientos a:
-wiimms https://wiimm.de desarrollador/es de el mod wiimms mario kart fun y las herramientas wit y szs
-Dynexyst https://github.com/Dynexyst sus script me sirvieron de inspiracion
-damysteryman https://gbatemp.net/members/damysteryman.104973/ su script para integrar cheats en el main.dol me sirvio de inspiracion
-Todo el team de Neo Team Galaxy por este mod 
+wiimms desarrollador/es de el mod wiimms mario kart fun y las herramientas wit y szs
+https://wiimm.de
+Dynexyst sus script me sirvieron de inspiracion
+https://github.com/Dynexys
+damysteryman su script para integrar cheats en el main.dol me sirvio de inspiracion
+https://gbatemp.net/members/damysteryman.104973/
+Todo el team de Neo Team Galaxy por este mod
+http://neomariogalaxy.bplaced.net/nmg/
 
