@@ -2,20 +2,27 @@
 Neo Mario Galaxy es una modificacion no oficial de Super Mario Galaxy 2
 Si deseas comprarme un cafe 
 viktormax3@gmail.com
-Requisitos
+
+Requisitos:
+
 *Cygwin
-https://www.cygwin.com/setup-x86_64.exe
+
+	https://www.cygwin.com/setup-x86_64.exe
 
 *UsbloaderGX (para cargar el juegoy usar cheats ocarina)
-https://sourceforge.net/projects/usbloadergx/
+
+	https://sourceforge.net/projects/usbloadergx/
 
 o Dolphin
-https://es.dolphin-emu.org/download/
+
+	https://es.dolphin-emu.org/download/
 
 *Mod de el juego
-http://neomariogalaxy.bplaced.net
 
-*Backup de tu disco original de mario galaxy 2
+	http://neomariogalaxy.bplaced.net
+
+*Backup de tu disco original de mario galaxy 2.
+
 
 1)Ubique la imagen iso o wbfs en la carpeta del parche
 
@@ -38,12 +45,15 @@ usando la version ntsc o japonesa y tienes algun problema contactame
 Se puede portar para otros juegos pero debes migrar el archivo xml de riivolution a uno basado en ocarina (cheats de wii) si quieres saber como hacerlo contactame
 
 Agradecimientos a:
-wiimms desarrollador/es de el mod wiimms mario kart fun y las herramientas wit y szs
+wiimms desarrollador/es de el mod wiimms mario kart fun y las herramientas wit y szs 
 https://wiimm.de
-Dynexyst sus script me sirvieron de inspiracion
+
+Dynexyst sus script me sirvieron de inspiracion 
 https://github.com/Dynexys
-damysteryman su script para integrar cheats en el main.dol me sirvio de inspiracion
+
+damysteryman su script para integrar cheats en el main.dol me sirvio de inspiracion 
 https://gbatemp.net/members/damysteryman.104973/
-Todo el team de Neo Team Galaxy por este mod
+
+Todo el team de Neo Team Galaxy por este mod 
 http://neomariogalaxy.bplaced.net/nmg/
 
