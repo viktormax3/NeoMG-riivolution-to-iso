@@ -53,6 +53,9 @@ Pasos
 	3.3) Abrimos ocarina y activamos "Activar esto si no inicia el juego"
 	3.4) Iniciamos el juego 
 
+**Dentro de la descarga inclui unas capturas de pantalla paso a paso para aplicar el parche correctamente y ejecutar el juego**
+
+
 3.b) Para dolphin deberas ver una guia de como activar cheats gecko (ocarina) y utilizar los cheats que estan dentro de el TXT
 
 Solo esta probado en la version pal si estas 
