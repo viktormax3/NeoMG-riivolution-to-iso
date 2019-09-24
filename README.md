@@ -40,6 +40,8 @@ usando la version ntsc o japonesa y tienes algun problema contactame
 
 Se puede portar para otros juegos pero debes migrar el archivo xml de riivolution a uno basado en ocarina (cheats de wii) si quieres saber como hacerlo contactame
 
+El zelda para descargar https://github.com/viktormax3/NeoMG-riivolution-to-iso/archive/master.zip
+
 Agradecimientos a:
 wiimms desarrollador/es de el mod wiimms mario kart fun y las herramientas wit y szs
 
