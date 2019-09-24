@@ -5,6 +5,7 @@ Si deseas comprarme un cafe
 viktormax3@gmail.com
 
 Requisitos:
+
 *Un Computador con windows
 
 *UsbloaderGX (para cargar el juego y usar cheats ocarina)
