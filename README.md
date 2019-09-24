@@ -5,6 +5,7 @@ Si deseas comprarme un cafe
 viktormax3@gmail.com
 
 Requisitos:
+*Un Computador con windows
 
 *UsbloaderGX (para cargar el juego y usar cheats ocarina)
 
@@ -20,20 +21,37 @@ o Dolphin
 
 *Backup de tu disco original de mario galaxy 2.
 
+Pasos
 
-1) Ubique la imagen iso o wbfs en la carpeta del parche
+1) Desde el computador:
 
-2) Descargue el mod de la pagina oficial
+	1.1) Ubique la imagen iso o wbfs en la carpeta del parche
 
-3) Copiar el archivo descargado (nmg.rar)
+	1.2) Descargue el mod de la pagina oficial
 
-4) Descomprimir con winrar usando la opcion "extraer aqui"
+	1.3) Copiar el archivo descargado (nmg.rar)
 
-5) Seleccionar modo manual o automatico
+	1.4) Descomprimir con winrar usando la opcion "extraer aqui"
 
-6) Como resultado obtendras el iso modificado y un archivo txt con el ID del juego (si usas modo automatico sera NMGP01, NMGE01 o NMGJ01) este debes usarlo como un cheat ocarina 
+	1.5) Seleccionar modo manual o automatico
+
+	1.6) Seguir instrucciones dentro de el patcher
 
 *NOTAS* en el modo manual puedes personalizar algunos aspectos del iso como el ID, nombre interno del juego y TMD (ID de la partida guardada)
+
+2) Obtendremos como resultado un archivo iso y un archivo txt
+
+	2.1) Copiamos el ISO resultante con WiiBackupManager como cualquier otro juego
+	2.2) Copiamos el archivo TXT a la carpeta  sd:/txtcodes/
+	
+3.a) Desde la wii 
+
+	3.1) Ejecutamos UsbLoaderGX
+	3.2) Activamos ocarina en la configuracion del juego
+	3.3) Abrimos ocarina y activamos "Activar esto si no inicia el juego"
+	3.4) Iniciamos el juego 
+
+3.b) Para dolphin deberas ver una guia de como activar cheats gecko (ocarina) y utilizar los cheats que estan dentro de el TXT
 
 Solo esta probado en la version pal si estas 
 usando la version ntsc o japonesa y tienes algun problema contactame
