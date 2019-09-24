@@ -1,5 +1,6 @@
 # NeoMG-riivolution-to-iso
 Neo Mario Galaxy es una modificacion no oficial de Super Mario Galaxy 2
+
 Si deseas comprarme un cafe 
 viktormax3@gmail.com
 
@@ -45,15 +46,19 @@ usando la version ntsc o japonesa y tienes algun problema contactame
 Se puede portar para otros juegos pero debes migrar el archivo xml de riivolution a uno basado en ocarina (cheats de wii) si quieres saber como hacerlo contactame
 
 Agradecimientos a:
-wiimms desarrollador/es de el mod wiimms mario kart fun y las herramientas wit y szs 
-https://wiimm.de
+wiimms desarrollador/es de el mod wiimms mario kart fun y las herramientas wit y szs
 
-Dynexyst sus script me sirvieron de inspiracion 
-https://github.com/Dynexys
+	https://wiimm.de
 
-damysteryman su script para integrar cheats en el main.dol me sirvio de inspiracion 
-https://gbatemp.net/members/damysteryman.104973/
+Dynexyst sus script me sirvieron de inspiracion
 
-Todo el team de Neo Team Galaxy por este mod 
-http://neomariogalaxy.bplaced.net/nmg/
+	https://github.com/Dynexys
+
+damysteryman su script para integrar cheats en el main.dol me sirvio de inspiracion
+
+	https://gbatemp.net/members/damysteryman.104973/
+
+Todo el team de Neo Team Galaxy por este mod
+
+	http://neomariogalaxy.bplaced.net/nmg/
 
