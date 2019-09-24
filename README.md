@@ -43,6 +43,7 @@ Pasos
 2) Obtendremos como resultado un archivo iso y un archivo txt
 
 	2.1) Copiamos el ISO resultante con WiiBackupManager como cualquier otro juego
+	
 	2.2) Copiamos el archivo TXT a la carpeta  sd:/txtcodes/
 	
 3.a) Desde la wii 
