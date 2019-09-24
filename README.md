@@ -30,9 +30,9 @@ Pasos
 
 	1.2) Descargue el mod de la pagina oficial
 
-	1.3) Copiar el archivo descargado (nmg.rar)
+	1.3) Copiar el archivo descargado (nmg.rar) a la carpeta del parche
 
-	1.4) Descomprimir con winrar usando la opcion "extraer aqui"
+	1.4) Descomprimir con winrar usando la opcion "extraer en \nmg"
 
 	1.5) Seleccionar modo manual o automatico
 
