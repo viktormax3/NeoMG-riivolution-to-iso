@@ -87,9 +87,9 @@ if exist ".\nmg\nmg\ASM" (
 if exist ".\nmg\nmg\version.info" (
 	del ".\nmg\nmg\version.info" >nul )
 if exist ".\nmg\riivolution" (
-	del ".\nmg\riivolution" >nul )
-	xcopy ".\nmg\nmg\*" "%WORKDIR%/files" /E /Y > nul
-	xcopy ".\banner\*" "%WORKDIR%/files" /E /Y > nul
+	rmdir /s /q ".\nmg\riivolution" >nul )
+xcopy ".\nmg\nmg\*" "%WORKDIR%/files" /E /Y > nul
+xcopy ".\banner\*" "%WORKDIR%/files" /E /Y > nul
 
 
 echo /=======================================\
