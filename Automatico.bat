@@ -38,20 +38,31 @@ if not exist ".\%isoFile%" (
 	pause >nul
 	GOTO :Build_iso )
 
-if exist ".\nmg\SystemData" ( 
-	set ModDir =.\nmg )
-if exist ".\nmg\nmg\SystemData" ( 
-	set ModDir =.\nmg\nmg )
-if exist ".\nmg\nmg\nmg\SystemData" ( 
-	set ModDir =.\nmg\nmg\nmg )
+if exist ".\nmg\SystemData\" ( 
+	SET ModDir=.\nmg
+)
+if exist ".\nmg\nmg\SystemData\" ( 
+	SET ModDir=.\nmg\nmg
+)
+if exist ".\nmg\nmg\nmg\SystemData\" ( 
+	SET ModDir=.\nmg\nmg\nmg
+)
 if not defined ModDir (
 	echo /==============================================\
 	echo I        Carpeta del mod no encontrada:        I
 	echo I *Verifique que se encuentre en esta carpeta  I
 	echo I *Verifique que el nombre sea nmg             I
 	echo I *Verifique que este descomprimida            I
+	echo I    Presione cualquier tecla para salir.      I
 	echo \==============================================/
+	pause >nul
+	exit
 )
+
+	echo /==============================================\
+	echo I        Carpeta del mod  encontrada           I
+	echo \==============================================/	
+	
 SET moddedFile=Neo Mario Galaxy.iso
 if exist ".\%moddedFile%" (
 	echo /====================================\
