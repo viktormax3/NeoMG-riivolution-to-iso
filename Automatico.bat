@@ -22,6 +22,7 @@ GOTO :Build_Iso
 
 :Build_Iso
 
+
 echo /=============================================\
 echo I Comencemos eligiendo la imagen del disco... I
 echo \=============================================/
@@ -37,6 +38,20 @@ if not exist ".\%isoFile%" (
 	pause >nul
 	GOTO :Build_iso )
 
+if exist ".\nmg\SystemData" ( 
+	set ModDir =.\nmg )
+if exist ".\nmg\nmg\SystemData" ( 
+	set ModDir =.\nmg\nmg )
+if exist ".\nmg\nmg\nmg\SystemData" ( 
+	set ModDir =.\nmg\nmg\nmg )
+if not defined ModDir (
+	echo /==============================================\
+	echo I        Carpeta del mod no encontrada:        I
+	echo I *Verifique que se encuentre en esta carpeta  I
+	echo I *Verifique que el nombre sea nmg             I
+	echo I *Verifique que este descomprimida            I
+	echo \==============================================/
+)
 SET moddedFile=Neo Mario Galaxy.iso
 if exist ".\%moddedFile%" (
 	echo /====================================\
@@ -73,24 +88,16 @@ pause >nul
 exit
 )
 
-
-
-
 echo /======================================\
 echo I          Aplicando el mod!           I
 echo I   Copiando archivos modificados ...  I
 echo I       Esto llevara un tiempo.        I
 echo \======================================/
 
-if exist ".\nmg\nmg\ASM" (
-	rmdir /s /q ".\nmg\nmg\ASM" >nul )
-if exist ".\nmg\nmg\version.info" (
-	del ".\nmg\nmg\version.info" >nul )
-if exist ".\nmg\riivolution" (
-	rmdir /s /q ".\nmg\riivolution" >nul )
-xcopy ".\nmg\nmg\*" "%WORKDIR%/files" /E /Y > nul
+rmdir /s /q "%ModDir%\ASM"
+del /s /q "%ModDir%\version.info"
+xcopy "%ModDir%\*" "%WORKDIR%/files" /E /Y > nul
 xcopy ".\banner\*" "%WORKDIR%/files" /E /Y > nul
-
 
 echo /=======================================\
 echo I          Aplicando el mod!            I
@@ -113,9 +120,9 @@ if %GAMEID% EQU SB4P01 set ID=NMGP01
 
 echo /==========================================\
 echo I        Imagen de disco Region %REG%        I
-echo I  Se cambiara el ID  de %GAMEID% a %ID%     I
+echo I  Se cambiara el ID  de %GAMEID% a %ID%   I
 echo \==========================================/
-wit EDIT --id  %ID%  ".\%moddedFile%" >nul
+%WITPATH% EDIT --id  %ID%  ".\%moddedFile%" >nul
 copy ".\txtcodes\%GAMEID%.txt" ".\%ID%.txt"
 
 echo /=======================================\
