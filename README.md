@@ -1,84 +1,84 @@
 # NeoMG-riivolution-to-iso
-Neo Mario Galaxy es una modificacion no oficial de Super Mario Galaxy 2
+Neo Mario Galaxy is an unofficial modification of Super Mario Galaxy 2.
 
 Si deseas comprarme un cafe 
 viktormax3@gmail.com
 
 Requisitos:
 
-*Un Computador con windows
+*A Computer with Windows
 
-*UsbloaderGX (para cargar el juego y usar cheats ocarina)
+*USB Loader GX (to play the game image and load Ocarina cheat codes)
 
 	https://sourceforge.net/projects/usbloadergx/
 
-o Dolphin
+or Dolphin
 
-	https://es.dolphin-emu.org/download/
+	https://dolphin-emu.org/download/
 
-*Mod de el juego
+*Neo Mario Galaxy (the mod itself)
 
 	http://neomariogalaxy.bplaced.net
 
-*Backup de tu disco original de mario galaxy 2.
+*ISO or WBFS image backup of your SMG2 disc.
 
-Pasos
+Steps
 
-1) Desde el computador:
+1) On your computer:
 
-	1.1) Ubique la imagen iso o wbfs en la carpeta del parche
+	1.1) Locate the ISO or WBFS game image in the patch folder.
 
-	1.2) Descargue el mod de la pagina oficial
+	1.2) Download the mod from its website.
 
-	1.3) Copiar el archivo descargado (nmg.rar) a la carpeta del parche
+	1.3) Copy the just-downloaded nmg.rar file to the patch folder.
 
-	1.4) Descomprimir con winrar usando la opcion "extraer en \nmg"
+	1.4) Extract the RAR file using WinRAR or 7zip.
 
-	1.5) Seleccionar modo manual o automatico
+	1.5) Select Manual or Automatic mode.
 
-	1.6) Seguir instrucciones dentro de el patcher
+	1.6) Follow the instructions in the patcher.
 
-*NOTAS* en el modo manual puedes personalizar algunos aspectos del iso como el ID, nombre interno del juego y TMD (ID de la partida guardada)
+*Note* In Manual mode, you can modify certain parts of the image your making, like Game ID, Internal Game Name, and TMD (useful for custom save game).
 
-2) Obtendremos como resultado un archivo iso y un archivo txt
+2) After the patcher is done, you will get an ISO file and a TXT file:
 
-	2.1) Copiamos el ISO resultante con WiiBackupManager como cualquier otro juego
+	2.1) Place the output ISO into Wii Backup Manager and transfer it to your drive.
 	
-	2.2) Copiamos el archivo TXT a la carpeta  sd:/txtcodes/
+	2.2) Place the output TXT file into SD:/txtcodes/
 	
-3.a) Desde la wii 
+3.a) On your Wii:
 
-	3.1) Ejecutamos UsbLoaderGX
-	3.2) Activamos ocarina en la configuracion del juego
-	3.3) Abrimos ocarina y activamos "Activar esto si no inicia el juego"
-	3.4) Iniciamos el juego 
+	3.1) Now run USB Loader GX.
+	3.2) Press on the game, go to (Game) Settings, go to  Game Load, and turn on Ocarina. Now go back, select Ocarina, select all of the codes on the menu, and press Create.
+	3.4) Go back and press Play.
 
-**Dentro de la descarga inclui unas capturas de pantalla paso a paso para aplicar el parche correctamente y ejecutar el juego**
+**There is a step-to-step guide with pictures in the download of the patcher.**
 
 
-3.b) Para dolphin deberas ver una guia de como activar cheats gecko (ocarina) y utilizar los cheats que estan dentro de el TXT
+3.b) Search up a guide on adding Gecko Codes on Dolphin from a TXT file.
 
-Solo esta probado en la version pal si estas 
-usando la version ntsc o japonesa y tienes algun problema contactame
+Currently only PAL has been tested, if you have issues with NTSC-U or NTSC-J, contact me with the email above or make an issue.
 
-Se puede portar para otros juegos pero debes migrar el archivo xml de riivolution a uno basado en ocarina (cheats de wii) si quieres saber como hacerlo contactame
+This can be used for other mods and games but you will need to migrate the Riivolution XML file based on Ocarina codes.
+If you want to know how, contact me with the email above.
 
-El zelda para descargar https://github.com/viktormax3/NeoMG-riivolution-to-iso/archive/master.zip
+ The Zelda for download. https://github.com/viktormax3/NeoMG-riivolution-to-iso/archive/master.zip
+(Totally not a horrible joke, ;P.)
 
-Agradecimientos a:
-wiimms desarrollador/es de el mod wiimms mario kart fun y las herramientas wit y szs
+Thanks to:
+Wiimm for making Wiimm's Mario Kart Fun, and the Wiimm's SZS and ISO Tools.
 
 	https://wiimm.de
 
-Dynexyst sus script me sirvieron de inspiracion
+Dynexyst for his script that inspired me to make this patcher.
 
 	https://github.com/Dynexys
 
-damysteryman su script para integrar cheats en el main.dol me sirvio de inspiracion
+Damysteryman for his script that patches the codes into a main.dol that also inspired me to make this patcher.
 
 	https://gbatemp.net/members/damysteryman.104973/
 
-Todo el team de Neo Team Galaxy por este mod
+The Neo Mario Galaxy team that made the mod in the first place.
 
 	http://neomariogalaxy.bplaced.net/nmg/
 
