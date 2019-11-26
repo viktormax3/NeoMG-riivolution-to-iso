@@ -4,23 +4,21 @@ SET WITPATH=wit-v3.00a-r7387-cygwin\bin\wit
 SET SZSPATH=szs-v1.54a-r7393-cygwin\bin\wstrt
 cls
 echo Ver. 1.0
-echo /============================================\
-echo I  Pasos                                     I
-echo I  1. Aplicar parche al iso                  I
-echo I  2. Cambiar el ID del juego                I
-echo I  3. Cambiar ID de TMD de .iso              I
-echo I  4. Cambiar el nombre interno de del juego I
-echo I  5. Salir a jugar (Y)                      I
-echo I                                            I
-echo I  (3. Hara que la Wii cree una              I
-echo I      nueva partida para el mod.)           I
-echo I                                            I
-echo I  Contacto:viktormax3@gmail.com             I
-echo I  Agradecimientos a el team de Wiimms       I 
-echo I  Por los binarios wit y szs utilizados     I 
-echo \============================================/
+echo /==============================================\
+echo I  Pasos                                       I
+echo I  1. Apply patch to ISO                       I
+echo I  2. Chnage the ID of the game                I
+echo I  3. Change the TMD of the .iso image         I
+echo I  4. Change the internal game name of the ISO I
+echo I  5. End of patcher                           I
+echo I                                              I
+echo I  (3. Will make new savegame for the game     I
+echo I                                              I
+echo I  Contacto:viktormax3@gmail.com               I
+echo I  Thanks to Wiimm for his SZS and ISO Tools   I 
+echo \==============================================/
 
-SET /P Input=Elige una opcion 1, 2, 3, 4 o 5: 
+SET /P Input=Choose Option 1, 2, 3, 4 or 5: 
 IF %Input% EQU 1 GOTO :Build_Iso
 IF %Input% EQU 2 GOTO :Change_GameID
 IF %Input% EQU 3 GOTO :Change_TMD
