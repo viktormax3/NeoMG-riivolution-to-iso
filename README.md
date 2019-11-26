@@ -50,7 +50,7 @@ Steps
 
 	3.1) Now run USB Loader GX.
 	3.2) Press on the game, go to (Game) Settings, go to  Game Load, and turn on Ocarina. Now go back, select Ocarina, select all of the codes on the menu, and press Create.
-	3.4) Go back and press Play.
+	3.3) Go back and press Play.
 
 **There is a step-to-step guide with pictures in the download of the patcher.**
 
