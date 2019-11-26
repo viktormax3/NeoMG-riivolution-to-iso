@@ -1,10 +1,10 @@
 # NeoMG-riivolution-to-iso
 Neo Mario Galaxy is an unofficial modification of Super Mario Galaxy 2.
 
-Si deseas comprarme un cafe 
+If you want to contact me:
 viktormax3@gmail.com
 
-Requisitos:
+Requirements:
 
 *A Computer with Windows
 
