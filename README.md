@@ -1,4 +1,8 @@
 # NeoMG-riivolution-to-iso
+
+***This project has been merged with this***
+https://github.com/viktormax3/SMG-Riiv-to-WBFS
+
 Neo Mario Galaxy es una modificacion no oficial de Super Mario Galaxy 2
 
 Si deseas comprarme un cafe 
